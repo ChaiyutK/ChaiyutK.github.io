@@ -3,7 +3,7 @@ body {
     padding: 0;
   }
         
-        .navbar {
+        nav {
           overflow: hidden;
           background-color: #333;
           position: fixed;
