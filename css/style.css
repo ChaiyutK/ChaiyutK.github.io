@@ -28,6 +28,47 @@ body {margin:0;}
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
 }
+
+.profile
+{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+img.logo
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+h1.name
+{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.social-image ul
+{
+  padding-left: 0px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.social-image ul li
+{
+  display: inline;
+}
 html {
             scroll-behavior: smooth;
         }
+@media (max-width: 600px)
+  {
+    .profile img{
+      width: 300px;
+    }
+  }
