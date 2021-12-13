@@ -1,4 +1,7 @@
-body {margin:0;}
+body {
+  margin:0;
+}
+
 
 .navbar {
   overflow: hidden;
@@ -58,6 +61,15 @@ h1.name
 .social-image ul li
 {
   display: inline;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 60%;
+  cursor: pointer;
+  transition: background 150ms ease-in-out;
+}
+.social-image ul li:hover
+{
+  background: rgba(163, 163, 163, 0.7);
 }
 html {
             scroll-behavior: smooth;
