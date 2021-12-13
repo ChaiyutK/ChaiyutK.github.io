@@ -71,6 +71,17 @@ h1.name
 {
   background: rgba(168, 166, 166, 0.555);
 }
+h5
+{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.work {
+  margin-bottom: 20px;
+}
 html {
             scroll-behavior: smooth;
         }
