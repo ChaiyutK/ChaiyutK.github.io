@@ -61,7 +61,7 @@ h1.name
 .social-image ul li
 {
   display: inline;
-  background: rgb(255, 255, 255);
+  background: rgb(226, 225, 225);
   padding: 10px;
   border-radius: 60%;
   cursor: pointer;
@@ -69,7 +69,7 @@ h1.name
 }
 .social-image ul li:hover
 {
-  background: rgba(163, 163, 163, 0.7);
+  background: rgba(168, 166, 166, 0.555);
 }
 html {
             scroll-behavior: smooth;
