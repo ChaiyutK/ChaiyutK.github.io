@@ -5,7 +5,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #232C68;
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,7 +56,7 @@ h1.name
   margin-left: 0px;
   width: 100%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .social-image ul li
 {
@@ -78,6 +78,48 @@ h5
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+}
+h5.salogan{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+div.bio-header
+{
+  background: #232C68;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  transition: background 200ms ease-in-out;
+}
+div.bio-header:hover
+{
+  background: #2d3883;
+  box-shadow: 0px 0px 4px rgba(119, 116, 116, 0.7);
+}
+.bio-header p{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.bio-content p{
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+.bio-content ul
+{
+  margin-left: 0px;
+}
+.bio-content ul li
+{
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin-left: 10px;
+  list-style-type: none;
 }
 .work {
   margin-bottom: 20px;
