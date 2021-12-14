@@ -7,6 +7,13 @@
     $txt = "Test";
     $headers = "From:". $email;
     
-    mail($to,$subject,$txt,$headers);
+    if(mail($to,$subject,$txt,$headers);)
+    {
+        echo "<script>alert('thank you!');window.open('../index.php','_self')</script>";
+    }
+    else
+    {
+        echo "<script>alert('ไม่สามารถส่งอีเมล์ได้ในขณะนี้โปรดติดต่อผู้ดูแลระบบ');window.open('../index.php','_self')</script>";
+    }
     
 ?>
