@@ -4,9 +4,16 @@
     $email = $_POST['email'];
     $to = "benzchaiyut.k@gmail.com";
     $subject = $name;
-    $txt = "Test";
+    $txt = $mesg;
     $headers = "From:". $email;
     
-    mail($to,$subject,$txt,$headers);
+    if(mail($to,$subject,$txt,$headers))
+    {
+        echo "<script>alert('thank you!');window.open('https://chaiyutk.000webhostapp.com','_self')</script>";
+    }
+    else
+    {
+        echo "<script>alert('ไม่สามารถส่งอีเมล์ได้ในขณะนี้โปรดติดต่อผู้ดูแลระบบ');window.open('https://chaiyutk.000webhostapp.com/','_self')</script>";
+    }
     
 ?>
