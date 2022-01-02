@@ -28,7 +28,7 @@ body {
 
 .profile
 {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -121,7 +121,45 @@ div.bio-header:hover
   margin-left: 10px;
   list-style-type: none;
 }
-.work {
+div.project-name
+{
+  background: #232C68;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  transition: background 200ms ease-in-out;
+}
+div.project-name:hover
+{
+  background: #2d3883;
+  box-shadow: 0px 0px 4px rgba(119, 116, 116, 0.7);
+}
+div.project-content
+{
+  background: #232C68;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  transition: background 200ms ease-in-out;
+}
+div.project-content:hover
+{
+  background: #2d3883;
+  box-shadow: 0px 0px 4px rgba(119, 116, 116, 0.7);
+}
+div.project-content p
+{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+div.project-name h5
+{
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.work
+{
   margin-bottom: 20px;
 }
 html {
